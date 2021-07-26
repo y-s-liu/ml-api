@@ -71,7 +71,8 @@ if bytesObj:
 	  "threshold": 0.5
 	})
     
-	response = requests.put("http://172.16.120.15/proxy/u9e39a57/predict/",data = payload, headers={'Content-Type': 'application/json'})
+	#response = requests.put("http://mlsteam.ai.icrd/proxy/u9e39a57/predict/",data = payload, headers={'Content-Type': 'application/json'})
+	response = requests.put("http://mlsteam.ai.icrd/proxy/uab5594a/predict/",data = payload, headers={'Content-Type': 'application/json'}) # mmdetection
 	data_dict = response.json()
 
 
